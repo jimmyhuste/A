@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C66A0EB8-572F-1C96-12A2-10498214059B" containerWithKeyObject="DB31D2AF-7317-2167-5215-1293BC4A9A78" localFKIndex="F88046D9-17E6-4F41-0E1C-C02D4FA074D5" name="RESTAURANTES_PROVEEDORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:51:14 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<referredTableLongName>PROVEEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7267D3DF-EC60-7C88-DB46-085304BDBAF2</referredTableID>
+<keyObject>996D51AB-CE10-11D1-E0FB-1260ED76797F</keyObject>
+<referredKeyID>996D51AB-CE10-11D1-E0FB-1260ED76797F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rut_Proveedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

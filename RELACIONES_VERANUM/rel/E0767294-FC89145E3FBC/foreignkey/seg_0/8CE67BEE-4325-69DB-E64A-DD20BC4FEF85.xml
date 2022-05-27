@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CE67BEE-4325-69DB-E64A-DD20BC4FEF85" containerWithKeyObject="A09B2334-2EB5-0D6A-3E99-AE797DACC305" localFKIndex="2770EB7B-432A-E7B0-6667-77546BED13FD" name="Agencias_SISTEMA WEB_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:44:29 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<referredTableLongName>SISTEMA WEB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44B55E74-6FD1-7260-FFA0-80DC97016BEB</referredTableID>
+<keyObject>D2736766-D986-D465-2B24-C4C3FC149FF3</keyObject>
+<referredKeyID>D2736766-D986-D465-2B24-C4C3FC149FF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_sistema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

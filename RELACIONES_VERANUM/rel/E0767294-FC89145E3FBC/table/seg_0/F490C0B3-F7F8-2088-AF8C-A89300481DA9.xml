@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F490C0B3-F7F8-2088-AF8C-A89300481DA9" name="SERVICIOS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:37:36 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Servicio" id="A4242E9C-94BA-14E5-8464-6570A7C4DF8F">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:38:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="7D570B61-BA6B-8411-B7DC-D50F3213917C">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:38:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="DD690AD1-9373-15E9-BFB7-C9BA826B1B47">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:38:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="DFCB2B06-BBAE-8191-3740-7B344BE61DD0">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:38:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hoteles_Id_hotel" id="0628D169-CA00-E2A2-793B-2F26AB18C2B6">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:54:17 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3701DC0A-2604-6065-8F45-9413AAA6ADEE" referredColumn="BAD874FC-E936-676F-D9E3-3F6E72A54919"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE7176A3-E8EF-8C50-7799-0F54AA698877" name="SERVICIOS_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:38:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4242E9C-94BA-14E5-8464-6570A7C4DF8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25036900-B318-796A-1C62-F544E7DBDCEC" name="SERVICIOS_Hoteles_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:54:17 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0628D169-CA00-E2A2-793B-2F26AB18C2B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

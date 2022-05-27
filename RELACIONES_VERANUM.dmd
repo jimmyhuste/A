@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RELACIONES_VERANUM" id="6B3BEA63-E8CE-5420-292F-261EA694F029" version="3.5">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 19:57:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6B3BEA63-E8CE-5420-292F-261EA694F029</designId>
+</OSDM_Design>

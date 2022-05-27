@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F4E17B3A-07B9-154D-4878-2DFF1F507A48" mainViewID="E712D71F-0D42-D1B8-1AF6-822FA989500D">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 19:57:57 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

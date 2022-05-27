@@ -1,0 +1,7 @@
+node_modules
+/OneDrive/Documentos/NetBeansProjects/projet/nbproject/private/
+/OneDrive/Documentos/NetBeansProjects/projet/build/
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75739486-96F4-DC53-959D-617083C6FFDC" name="RESERVAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 19:58:34 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_reservas" id="AF8BBD46-CFFD-9ED8-49B7-6333F6CABAA9">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:01:21 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_ingreso" id="BA73B3C0-8DC9-B731-284F-2A181D9465F8">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:01:21 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_salida" id="9CE2FF7E-C4D3-E250-4CC4-67421D107C1C">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:01:21 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Rut_cliente" id="BE84963D-6E06-86C5-6DFB-3558258226CF">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:45:55 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C364FA8-191A-6FF1-6166-51546877CFBB" referredColumn="AC3454B7-F1F1-7ACF-CAC9-5B4F91006CC2"/>
+</associations>
+</Column>
+<Column name="Hoteles_Id_hotel" id="550C0D9D-DA5C-04E3-F5A4-6961D3EC8C00">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:46:30 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85C561F7-8C14-D875-B2AF-75A4809B567F" referredColumn="BAD874FC-E936-676F-D9E3-3F6E72A54919"/>
+</associations>
+</Column>
+<Column name="HABITACIONES_Nro_Habitacion" id="5552A044-EFB8-85AB-E4AC-8816DC1CAF5B">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:47:35 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22A00BB-8A61-C728-A038-559EC9D80792" referredColumn="3E5D2C2A-79F7-1F63-94AC-B92775991055"/>
+</associations>
+</Column>
+<Column name="Agencias_Rut_agencia" id="ED8A4867-C79C-CA26-704B-9C9ABAA415FA">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:57:25 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C2E0C5-E9D0-8F43-8230-2825B35895E4" referredColumn="E9BFE4D5-FB77-1F0F-C278-40A328820C28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8219A8A6-0D0B-435D-E755-4E625385DBC0" name="Rservas_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:01:21 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF8BBD46-CFFD-9ED8-49B7-6333F6CABAA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE8EEAAE-81AE-4808-AF9D-736C6775CD4F" name="Rservas_Clientes_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:45:55 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE84963D-6E06-86C5-6DFB-3558258226CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEBB33F6-1A17-59BA-C9E6-DA786417045B" name="Rservas_Hoteles_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:46:30 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="550C0D9D-DA5C-04E3-F5A4-6961D3EC8C00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="132AC19E-42DA-8FA6-6974-280D6C4B86CD" name="Rservas_HABITACIONES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:47:35 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5552A044-EFB8-85AB-E4AC-8816DC1CAF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73DF3E3D-0C0D-1450-B785-E3624C86578E" name="Rservas_Agencias_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-27 20:57:25 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED8A4867-C79C-CA26-704B-9C9ABAA415FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
