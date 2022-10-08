@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B18F7C99-0006-8E27-7EA8-1B9474EF16D8" name="ADMINISTRADORES">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:12:42 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="261B4FAF-6F51-D1C5-1304-543C3BA619E6">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:14:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="18FA8902-3DB5-6194-5027-DAA4491362A0">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:14:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="40632697-E398-71E8-4B82-6DB4F9FF3460">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:14:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="348B9714-4F70-FFF2-AA54-13702367CCD2">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:14:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C12F797E-6968-6EE4-5531-7BB7848E971D" name="ADMINISTRADORES_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:14:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261B4FAF-6F51-D1C5-1304-543C3BA619E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

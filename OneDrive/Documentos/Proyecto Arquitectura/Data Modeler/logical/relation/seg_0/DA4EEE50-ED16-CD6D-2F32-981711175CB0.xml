@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITAS_ADMINISTRADORES_FK" directorySegmentName="seg_0" id="DA4EEE50-ED16-CD6D-2F32-981711175CB0">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>39D0D1C2-8712-1577-0365-2BC6A3FB25C2</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>A7C05FF9-2B35-B47A-AA52-FFCEF41BE8BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65ADD85F-437F-7A28-3E3F-6AD92816BDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0DEF96CF-3F1B-6878-FA63-2410A56902DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

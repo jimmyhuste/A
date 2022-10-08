@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NOTAS_ASIGNATURAS_FK" directorySegmentName="seg_0" id="B1DBE9D5-10A2-9994-E16F-405DA8D38C5C">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>F228BDE3-32BE-9D38-846F-F7F5F30C126F</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>EE65A06F-FE21-E670-9EE4-6BB6D007AD80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69E796DF-AB8D-E905-A58D-8E4E0472F5E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>221886D4-9888-55C6-53F8-8141C6924525</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

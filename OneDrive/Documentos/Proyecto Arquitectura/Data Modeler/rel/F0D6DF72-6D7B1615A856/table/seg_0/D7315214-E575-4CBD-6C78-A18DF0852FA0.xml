@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7315214-E575-4CBD-6C78-A18DF0852FA0" name="ALUMNOS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:54:41 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alumno" id="F791682C-7C87-8ECA-5EB9-4CE7BA09239A">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:56:21 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CF01BAFF-9F2F-55A1-E07B-8C71A30BAA6C">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:56:21 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="50F4FB5F-C663-2E13-D34F-75913E0E200D">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:56:21 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESORES_id_profesro" id="F8A55B5F-56C0-BCB6-5615-3378DA2D49F5">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:29:11 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8750397-8C90-70CB-AC7B-4720646638A1" referredColumn="66B4F418-F03F-F1BD-5EF4-00DFDDF8BE32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6C194DD-513E-7794-1FCF-2A4C54B24C8A" name="ALUMNOS_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:56:21 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F791682C-7C87-8ECA-5EB9-4CE7BA09239A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D6D15FA-889B-2FEE-5B76-8910094E09C7" name="ALUMNOS_PROFESORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:29:11 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8A55B5F-56C0-BCB6-5615-3378DA2D49F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

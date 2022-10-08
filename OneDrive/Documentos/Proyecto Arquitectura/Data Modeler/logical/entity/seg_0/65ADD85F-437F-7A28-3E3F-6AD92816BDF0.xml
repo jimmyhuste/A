@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65ADD85F-437F-7A28-3E3F-6AD92816BDF0" name="ADMINISTRADORES">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>B18F7C99-0006-8E27-7EA8-1B9474EF16D8</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id admin" id="C806FBDA-6060-031E-5BE0-178494F85389">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>261B4FAF-6F51-D1C5-1304-543C3BA619E6</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B839A121-D1EE-B5D9-A5BE-EA3354D97639">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>18FA8902-3DB5-6194-5027-DAA4491362A0</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="07C2CFFE-29E4-1B7D-B167-CAA1C6324AFC">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>40632697-E398-71E8-4B82-6DB4F9FF3460</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="2525A948-DA2B-8A8C-A3AD-DE66E6C57DBE">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>348B9714-4F70-FFF2-AA54-13702367CCD2</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7C05FF9-2B35-B47A-AA52-FFCEF41BE8BA" name="ADMINISTRADORES PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>C12F797E-6968-6EE4-5531-7BB7848E971D</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C806FBDA-6060-031E-5BE0-178494F85389</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C92328F0-3346-20B1-8CAB-823E07E422DB" name="ALUMNOS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>D7315214-E575-4CBD-6C78-A18DF0852FA0</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id alumno" id="4F80EDEE-0A15-8D01-3735-8C2CFE53089F">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>F791682C-7C87-8ECA-5EB9-4CE7BA09239A</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0D4FDBF2-01A5-4863-3C97-935B8BA159F4">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>CF01BAFF-9F2F-55A1-E07B-8C71A30BAA6C</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="6F3545EC-2EF2-565B-592C-7207E1F057E1">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>50F4FB5F-C663-2E13-D34F-75913E0E200D</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROFESORES id profesro" id="6632A1B9-CD32-192A-9BFD-B10C925CBEAF">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>D4DADC16-B310-335E-2383-3F1F640034E6</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<referedAttribute>15C6B93C-3D21-8086-56B8-094EB3D79389</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF0DA715-068B-8457-6154-7C1E64F5869B" name="ALUMNOS PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>D6C194DD-513E-7794-1FCF-2A4C54B24C8A</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F80EDEE-0A15-8D01-3735-8C2CFE53089F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

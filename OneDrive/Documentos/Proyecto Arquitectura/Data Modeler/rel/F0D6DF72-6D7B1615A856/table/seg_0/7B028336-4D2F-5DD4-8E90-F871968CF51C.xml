@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B028336-4D2F-5DD4-8E90-F871968CF51C" name="MATERIAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:07:39 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_materia" id="7FC2E32A-CEA6-BD75-A207-EB77DD8C7344">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:11:13 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="archivo" id="FDA05745-8968-0814-2E13-6646D2503EBF">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:11:13 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descipcion" id="22DA8A7D-3C9A-7D79-A9D8-6C3080AD7757">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:11:13 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="CDD66695-FCC1-875D-4965-93CC4D8EA04F">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:11:13 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESORES_id_profesro" id="267079F9-438F-23EF-0667-22BED1DF92E6">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:30:41 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E1A06A3-B311-14DE-E1D0-A3EF634BF3DA" referredColumn="66B4F418-F03F-F1BD-5EF4-00DFDDF8BE32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E797831-D039-6883-1E1E-910658FEF75B" name="MATERIAS_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:11:13 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC2E32A-CEA6-BD75-A207-EB77DD8C7344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E0F9CE1-D8D1-2485-E5F4-AF99ADAD4789" name="MATERIAS_PROFESORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:30:41 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="267079F9-438F-23EF-0667-22BED1DF92E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CB62582-64A5-F1FD-18B4-AD2BAB95DEE1" name="CITAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:17:04 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cita" id="A59ACC2A-9D61-CC28-19F4-E0094766D662">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:18:31 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asunto" id="9D7531F9-1185-E06E-446F-A080CBBF27EC">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:18:31 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="69AC6F4B-5A04-B5D6-0800-50AE18C2DBD9">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:18:31 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMINISTRADORES_id_admin" id="0F2767C7-E07A-C4C9-6224-1ABE4B3F2CF1">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:29:53 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39D0D1C2-8712-1577-0365-2BC6A3FB25C2" referredColumn="261B4FAF-6F51-D1C5-1304-543C3BA619E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BAC6DF5-BF12-8DAB-91BF-58FBB3A5DB20" name="CITAS_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:18:31 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59ACC2A-9D61-CC28-19F4-E0094766D662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97DE45DE-E37C-5650-F701-95A44759790D" name="CITAS_ADMINISTRADORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:29:53 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2767C7-E07A-C4C9-6224-1ABE4B3F2CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

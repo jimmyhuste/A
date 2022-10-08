@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NOTAS_PROFESORES_FK" directorySegmentName="seg_0" id="A7AB47D3-7856-2BDF-2D31-4B723042EFD2">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>B4E6EB1C-5CE9-5A7C-BC0F-866B4FB01294</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>38EBF54E-9542-C021-673F-3DD9F55C2CB5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7E725613-A0BB-1CDE-8536-4888A8CC0F88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>221886D4-9888-55C6-53F8-8141C6924525</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

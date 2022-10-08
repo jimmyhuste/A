@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="428CE0DD-055C-F765-E507-B7E8A9E4D1E1" containerWithKeyObject="19808FA7-A504-0737-AD2C-09D1F47949F9" localFKIndex="EE919CB0-0B95-0FA9-6EB8-9F732EAC72C8" name="AGENDAS_PROFESORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:26:49 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<referredTableLongName>PROFESORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA4FB473-84D5-40CE-0757-E4DDCCFAFFA8</referredTableID>
+<keyObject>D6381516-3A98-BE0E-7E5A-6172D9BA99A7</keyObject>
+<referredKeyID>D6381516-3A98-BE0E-7E5A-6172D9BA99A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profesro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

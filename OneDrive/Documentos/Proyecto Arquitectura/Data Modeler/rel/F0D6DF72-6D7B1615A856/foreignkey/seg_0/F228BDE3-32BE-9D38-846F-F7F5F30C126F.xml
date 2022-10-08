@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F228BDE3-32BE-9D38-846F-F7F5F30C126F" containerWithKeyObject="6B414413-1B4F-69B0-FFE2-1728A7E1E5DA" localFKIndex="B478DF54-F5DA-6E2E-8292-145BC80BEBF4" name="NOTAS_ASIGNATURAS_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:24:35 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<referredTableLongName>ASIGNATURAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6531F403-9DDE-F4A8-938E-713A2B89DAD8</referredTableID>
+<keyObject>70F892B9-F926-E563-926E-660CF622201A</keyObject>
+<referredKeyID>70F892B9-F926-E563-926E-660CF622201A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_asig</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="221886D4-9888-55C6-53F8-8141C6924525" name="NOTAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>6B414413-1B4F-69B0-FFE2-1728A7E1E5DA</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id nota" id="9997D1AE-3FC1-0AB9-58C1-128D453319FA">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>0E0C3492-F5C9-C8A1-7FA1-6684311AE857</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="016B7E86-9E4D-DE45-1E54-96270DE18D8B">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>04B20682-1E78-3F81-B988-5B244A6C6903</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALUMNOS id alumno" id="B9BE5824-7D32-4CBA-6478-19C3E9ECA828">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>7F470BEF-2CD4-7C98-9792-D5A4447BD930</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<referedAttribute>4F80EDEE-0A15-8D01-3735-8C2CFE53089F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASIGNATURAS id asig" id="735CA1F7-9F0E-362D-8DEE-BF5204F46F38">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>B1DBE9D5-10A2-9994-E16F-405DA8D38C5C</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<referedAttribute>03FF0BFC-20DD-8C23-8F0C-4E39F47DF50E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROFESORES id profesro" id="E8E54420-0BC5-A10D-D7A6-20F7BB5ABEEA">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>A7AB47D3-7856-2BDF-2D31-4B723042EFD2</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<referedAttribute>15C6B93C-3D21-8086-56B8-094EB3D79389</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA1F679F-5C23-2BFA-C849-CCD14781B499" name="NOTAS PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>1DBD336E-8FC5-973B-CCE2-32DE9CCA7910</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9997D1AE-3FC1-0AB9-58C1-128D453319FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

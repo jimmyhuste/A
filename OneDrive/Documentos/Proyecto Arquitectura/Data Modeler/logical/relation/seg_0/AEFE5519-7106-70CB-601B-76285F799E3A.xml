@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDAS_ALUMNOS_FK" directorySegmentName="seg_0" id="AEFE5519-7106-70CB-601B-76285F799E3A">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>CC4C8F0B-F2F4-70A7-092B-C3D7DB7AC4EC</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>AF0DA715-068B-8457-6154-7C1E64F5869B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C92328F0-3346-20B1-8CAB-823E07E422DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62D1D569-9C73-0204-9289-0894E5C63DEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

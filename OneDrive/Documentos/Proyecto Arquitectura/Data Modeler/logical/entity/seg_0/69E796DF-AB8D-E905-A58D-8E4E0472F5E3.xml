@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69E796DF-AB8D-E905-A58D-8E4E0472F5E3" name="ASIGNATURAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>6531F403-9DDE-F4A8-938E-713A2B89DAD8</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id asig" id="03FF0BFC-20DD-8C23-8F0C-4E39F47DF50E">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>6ECC8860-A109-A9D6-5A15-25D880CFE165</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E6EE6D23-08D3-7F84-F69B-7C0DB4F50226">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>3A4C6E34-53A8-690B-2632-63C8B7C0B974</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALUMNOS id alumno" id="8CD69D66-53FE-A7AE-7313-6D97ABD5C829">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>801981FB-E90A-9B3C-9A0B-A5B7AC582B10</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<referedAttribute>4F80EDEE-0A15-8D01-3735-8C2CFE53089F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE65A06F-FE21-E670-9EE4-6BB6D007AD80" name="ASIGNATURAS PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:47 UTC</createdTime>
+<generatorID>70F892B9-F926-E563-926E-660CF622201A</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03FF0BFC-20DD-8C23-8F0C-4E39F47DF50E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

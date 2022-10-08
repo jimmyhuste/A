@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDAS_ADMINISTRADORES_FK" directorySegmentName="seg_0" id="3D607BC3-79DC-546A-0D32-F5C625F2736C">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>E430E084-F2ED-901F-1817-968871F88105</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>A7C05FF9-2B35-B47A-AA52-FFCEF41BE8BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65ADD85F-437F-7A28-3E3F-6AD92816BDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62D1D569-9C73-0204-9289-0894E5C63DEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

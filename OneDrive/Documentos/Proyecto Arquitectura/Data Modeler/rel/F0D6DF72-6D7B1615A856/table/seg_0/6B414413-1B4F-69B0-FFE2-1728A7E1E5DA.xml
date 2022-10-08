@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B414413-1B4F-69B0-FFE2-1728A7E1E5DA" name="NOTAS">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:57:53 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nota" id="0E0C3492-F5C9-C8A1-7FA1-6684311AE857">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:59:24 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="04B20682-1E78-3F81-B988-5B244A6C6903">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:59:24 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALUMNOS_id_alumno" id="4095757A-2EE6-0215-4601-06528AA3207B">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:23:16 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7A58AE8-F23C-D941-4C65-9099FCCACEC8" referredColumn="F791682C-7C87-8ECA-5EB9-4CE7BA09239A"/>
+</associations>
+</Column>
+<Column name="ASIGNATURAS_id_asig" id="2314E5B4-84A1-B66A-07FD-2D59ED4CA74D">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:24:35 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F228BDE3-32BE-9D38-846F-F7F5F30C126F" referredColumn="6ECC8860-A109-A9D6-5A15-25D880CFE165"/>
+</associations>
+</Column>
+<Column name="PROFESORES_id_profesro" id="48CD71DE-996F-B2E0-1F08-3801D13BE4C8">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:25:16 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4E6EB1C-5CE9-5A7C-BC0F-866B4FB01294" referredColumn="66B4F418-F03F-F1BD-5EF4-00DFDDF8BE32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DBD336E-8FC5-973B-CCE2-32DE9CCA7910" name="NOTAS_PK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 11:59:24 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0C3492-F5C9-C8A1-7FA1-6684311AE857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA3066D7-5AA5-7DA9-1DC2-717B95A1BCA0" name="NOTAS_ALUMNOS_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:23:16 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4095757A-2EE6-0215-4601-06528AA3207B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B478DF54-F5DA-6E2E-8292-145BC80BEBF4" name="NOTAS_ASIGNATURAS_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:24:35 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2314E5B4-84A1-B66A-07FD-2D59ED4CA74D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F2297D-FE98-3FC9-CA1C-9D8E0AD6FD73" name="NOTAS_PROFESORES_FK">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:25:16 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48CD71DE-996F-B2E0-1F08-3801D13BE4C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

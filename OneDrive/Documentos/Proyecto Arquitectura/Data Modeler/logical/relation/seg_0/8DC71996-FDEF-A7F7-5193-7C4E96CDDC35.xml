@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERFILES_ADMINISTRADORES_FK" directorySegmentName="seg_0" id="8DC71996-FDEF-A7F7-5193-7C4E96CDDC35">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 12:55:48 UTC</createdTime>
+<generatorID>BB0D97D3-35C8-AFA3-D412-B249F324E1F2</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="F0D6DF72-2776-0DAC-0082-6D7B1615A856" value="true"/>
+</engineerTo>
+<sourcePk>A7C05FF9-2B35-B47A-AA52-FFCEF41BE8BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65ADD85F-437F-7A28-3E3F-6AD92816BDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9CFA9DEC-ABED-672A-DDE9-3C008303759D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
