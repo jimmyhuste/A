@@ -8,13 +8,12 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Nro_Habitacion" id="3E5D2C2A-79F7-1F63-94AC-B92775991055">
+<Column name="Id_Habitacion" id="3E5D2C2A-79F7-1F63-94AC-B92775991055">
 <createdBy>jimmy</createdBy>
 <createdTime>2022-05-27 20:29:02 UTC</createdTime>
 <ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -24,7 +23,6 @@
 <ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -35,7 +33,6 @@
 <ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -46,7 +43,6 @@
 <ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -56,13 +52,21 @@
 <ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="F4371E8C-5A2F-A41A-A8CC-28E60668A392" referredColumn="BAD874FC-E936-676F-D9E3-3F6E72A54919"/>
 </associations>
+</Column>
+<Column name="Numero_Habitacion" id="9B6C908E-3BED-159C-D635-0E7DB005CF1E">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-05-28 03:37:40 UTC</createdTime>
+<ownerDesignName>RELACIONES_VERANUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

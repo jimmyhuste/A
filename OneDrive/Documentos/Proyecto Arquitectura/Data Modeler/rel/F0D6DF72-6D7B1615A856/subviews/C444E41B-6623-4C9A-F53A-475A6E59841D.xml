@@ -48,7 +48,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D7315214-E575-4CBD-6C78-A18DF0852FA0" otype="Table" vid="AB383FF1-5A4E-D5C7-20D9-BE9E40465130">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="53" y="34" width="307" height="123"/>
+<bounds x="53" y="34" width="307" height="138"/>
 </OView>
 </objectViews>
 <connectors>
@@ -93,8 +93,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="211" y="157"/>
-<point x="211" y="499"/>
+<point x="58" y="172"/>
+<point x="57" y="499"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BB0D97D3-35C8-AFA3-D412-B249F324E1F2" otype="FKIndexAssociation" vid_source="752E9EAA-D9F2-830F-7827-124DB68B5B89" vid_target="4ADF4A08-4B2B-2929-CA18-43F1FA4E479B">
@@ -111,8 +111,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="520" y="263"/>
-<point x="306" y="157"/>
+<point x="517" y="263"/>
+<point x="340" y="172"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CC4C8F0B-F2F4-70A7-092B-C3D7DB7AC4EC" otype="FKIndexAssociation" vid_source="AB383FF1-5A4E-D5C7-20D9-BE9E40465130" vid_target="211D2C57-BCE9-8367-9A12-FC88462807D9">
@@ -120,8 +120,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="360" y="111"/>
-<point x="571" y="111"/>
+<point x="360" y="133"/>
+<point x="571" y="133"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E430E084-F2ED-901F-1817-968871F88105" otype="FKIndexAssociation" vid_source="752E9EAA-D9F2-830F-7827-124DB68B5B89" vid_target="211D2C57-BCE9-8367-9A12-FC88462807D9">
@@ -147,8 +147,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="239" y="157"/>
-<point x="239" y="262"/>
+<point x="254" y="172"/>
+<point x="254" y="262"/>
 </points>
 </Connector>
 </connectors>

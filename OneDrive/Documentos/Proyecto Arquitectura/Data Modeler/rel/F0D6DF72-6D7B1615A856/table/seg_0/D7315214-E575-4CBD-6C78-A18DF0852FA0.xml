@@ -40,6 +40,17 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="metodo_de_pgo" id="509E79CA-5875-AC53-E212-C72393B84649">
+<createdBy>jimmy</createdBy>
+<createdTime>2022-10-08 13:24:47 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="PROFESORES_id_profesro" id="F8A55B5F-56C0-BCB6-5615-3378DA2D49F5">
 <createdBy>jimmy</createdBy>
 <createdTime>2022-10-08 12:29:11 UTC</createdTime>
